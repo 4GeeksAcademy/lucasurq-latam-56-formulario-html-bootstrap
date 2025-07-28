@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card text-center m-3">
+            <!-- Header -->
+            <div class="card-header d-flex p-2 fs-3 fw-semibold">
+                Playment form example
+            </div>
+            <!--Container-->
+            <div class="card-body p-4">
+                <div class="alert alert-danger d-flex" role="alert">
+                    Some fields are missing
+                </div>
+                <form action="example.com" method="get" class="row d-flex">
+                    <div class="d-flex col-5 flex-column text-start">
+                        <span class="fw-semibold py-2">Card  #</span>
+                        <input class="form-control" type="number" placeholder="XXXXXXXXXXXXXXXX" aria-label="default input example">
+                    </div>
+                    <div class="d-flex col-3 flex-column text-start">
+                        <span class="fw-semibold  py-2">CVC  #</span>
+                        <input class="form-control" type="number" placeholder="0000" aria-label="default input example">
+                    </div>
+                    <div class="d-flex col-4 flex-column text-start">
+                        <span class="fw-semibold py-2">Amount</span>
+                        <div class="d-flex">
+                            <span class="fw-semibold">$</span>
+                            <input class="form-control" type="number" placeholder="Amount" aria-label="default input example">
+                        </div>
+                    </div>
+                </form>
+                <form action="example.com" method="get" class="row d-flex">
+                    <div class="d-flex col-6 flex-column text-start">
+                        <span class="fw-semibold py-2">First Name</span>
+                        <input class="form-control" type="text" aria-label="default input example">
+                    </div>
+                    <div class="d-flex col-6 flex-column text-start">
+                        <span class="fw-semibold py-2">Last Name</span>
+                        <input class="form-control" type="text" aria-label="default input example">
+                    </div>
+                </form>
+                <form action="example.com" method="get" class="row d-flex">
+                    <div class="d-flex col-6 flex-column text-start">
+                        <span class="fw-semibold py-2">City</span>
+                        <input class="form-control" type="text" aria-label="default input example">
+                    </div>
+                    <div class="d-flex col-3 flex-column text-start">
+                        <span class="fw-semibold py-2">State</span>
+                        <input class="form-control" type="text" aria-label="default input example" placeholder="Pick a state">
+                    </div>
+                    <div class="d-flex col-3 flex-column text-start">
+                        <span class="fw-semibold py-2">Postal Code</span>
+                        <input class="form-control" type="number" aria-label="default input example">
+                    </div>
+                </form>
+                <form action="example.com" method="get" class="row d-flex">
+                    <div class="d-flex col-3 flex-column text-start">
+                        <span class="fw-semibold py-2">We accept:</span>
+                        <div class="d-flex radio-card gap-1 justify-content-around p-2 rounded">
+                            <div>    
+                                <input class="" type="radio" aria-label="default input example" name="ol">
+                                <label for="cards">
+                                    <img src="https://flaticons.net/icon.php?slug_category=banking&slug_icon=master-card" class="img-fluid img-tamaño" alt="...">
+                                </label>
+                            </div>
+                            <div>
+                                <input class="" type="radio" aria-label="default input example" name="ol">
+                                <label for="cards">
+                                    <img src="https://logodix.com/logo/1153440.png" class="img-fluid img-tamaño" alt="">
+                                </label>
+                            </div>
+                            <div>
+                                <input class="" type="radio" aria-label="default input example" name="ol">
+                                <label for="cards">
+                                    <img src="https://images.icon-icons.com/1176/PNG/512/diners-club_81985.png" alt="" class="img-fluid img-tamaño">
+                                </label>
+                            </div>
+                            <div>
+                                <input class="" type="radio" aria-label="default input example" name="ol">
+                                <label for="cards">
+                                    <img src="https://images.icon-icons.com/1176/PNG/512/american-express_81996.png" alt="" class="img-fluid img-tamaño">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3"></div>
+                    <div class="d-flex col-6 flex-column text-start py-2">
+                        <label for="exampleFormControlTextarea1" class="form-label fw-semibold py-2">Messagge</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <span class="fw-semibold notes">Add any notes here.</span>
+                    </div>
+                </form>
+            </div>
+            <!-- Footer -->
+            <div class="text-body-secondary d-flex gap-1 p-3 flex-row-reverse">
+                <button type="button" class="btn btn-primary">Send</button>
+                <button type="button" class="btn btn-secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
